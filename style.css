@@ -1,0 +1,135 @@
+body {
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+
+}
+h1{
+    text-align: center;
+    background: linear-gradient(to right, lightcoral, pink);
+
+}
+header{
+    background: linear-gradient(to right, lightcoral, pink);
+    padding-bottom:20px;
+
+
+}
+header h1{
+    padding-top: 45px;
+    text-align: center;
+
+}
+.f-nav{
+    margin-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    
+    padding-left:2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+.s-nav{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top:1px;
+    padding-left:2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.ss-nav{
+    text-align: end;
+    margin-right: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-top: 1px;
+    padding-left:2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.f-nav::before {
+    color:#502542;
+    margin-left:-1.5rem;
+    margin-right:1rem;
+    content: "❯❯";
+}
+.s-nav::before {
+    color:#502542;
+    margin-left:-1.5rem;
+    margin-right:1rem;
+    content: "❯❯";
+}
+.ss-nav::before {
+    color:#502542;
+    margin-left:-1.5rem;
+    margin-right:1rem;
+    content: "❯❯";
+}
+nav{
+    margin-bottom: 20px;
+    background-color: lightcoral;
+    background: linear-gradient(to right, lightcoral, pink);
+    
+}
+nav a {
+    margin: auto;
+    color: black;
+    margin-left: 100px;
+}
+.window{
+    width: 200px;
+    height: 290px;
+    border: 5px solid gray;
+    margin-left: 20px;
+    float: left;
+}
+iframe{
+    padding-top: 15px;
+    padding-left: 22px;
+}
+.window h3{
+    text-align: center;
+    
+}
+@import url(https://fonts.googleapis.com/css?family=Rubik+One&subset=latin,cyrillic);
+.gradient-text {
+  font-family: 'Rubik One', sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #008000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0B2349;
+  display: table;
+  margin: 20px auto;
+}
+
+footer{
+    background-color: black;
+}
+footer p{
+    text-align: left;
+    color: white;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+
+.f-nav:hover,.s-nav:hover,.ss-nav:hover {
+    color: lightblue;
+
+}
+footer img{
+    height: 100px;
+    width: 150px;
+}
+main{
+    height: 350px;
+}
